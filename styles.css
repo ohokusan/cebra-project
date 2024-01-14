@@ -105,6 +105,16 @@
             .about p:nth-of-type(1) {
                 margin-bottom: 20px;
             }
+
+            .projects {
+                .categories > * {
+                    grid-column: span 2;
+                }
+
+                ul {
+                    justify-content: space-between;
+                }
+            }
         }
 
         @container layout (max-width: 450px) {
