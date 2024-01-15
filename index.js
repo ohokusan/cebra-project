@@ -3,6 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const logo = document.querySelector(".logo");
     const menuIcon = document.querySelector(".menu-icon-svg");
 
+    const listItems = document.querySelectorAll(".awards li");
+
+    listItems.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+            // Hide all additional text elements
+            item.classList.toggle("active");
+        });
+    });
+
     window.addEventListener("scroll", function () {
         // Check if the scroll position is greater than 20px
         if (window.scrollY > 20) {
