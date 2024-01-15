@@ -209,6 +209,7 @@
         font-weight: 500;
         line-height: 1.4; /* 22.4px */
         text-transform: uppercase;
+        cursor: pointer;
 
         span {
             color: var(--Text-Grey-2);
