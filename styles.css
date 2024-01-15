@@ -111,15 +111,6 @@
                     display: none;
                 }
             }
-
-            img {
-                grid-column: span 1;
-                max-height: 400px;
-            }
-
-            .text {
-                grid-column: span 1;
-            }
         }
 
         .news li.grid {
@@ -181,6 +172,17 @@
 
                 div > .btn-2 {
                     grid-column: span 2;
+                }
+            }
+
+            .wise {
+                img {
+                    grid-column: span 1;
+                    max-height: 400px;
+                }
+
+                .text {
+                    grid-column: span 1;
                 }
             }
         }
